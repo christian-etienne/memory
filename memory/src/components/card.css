@@ -1,0 +1,32 @@
+.card {
+    width: 100%;
+    height: auto;
+    perspective: 1000px;
+    position: relative;
+    transition: transform 0.6s;
+  }
+  
+  .card img {
+    width: 75px;
+    height: 75px;
+  }
+  
+  .flipped {
+    transform: rotateY(180deg);
+  }
+  
+  /* Style pour placer les cartes en 3 colonnes */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  
+  .col-md-3 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
