@@ -1,11 +1,11 @@
 
 
 
-
+import image from '../assets/logocasino.png';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 
-function BrandExample() {
+function logo() {
   return (
     <>
      
@@ -14,7 +14,7 @@ function BrandExample() {
           <Navbar.Brand href="#home">
             <img
               alt=""
-              src="/img/logo.svg"
+              src="../assets/logocasino.png"
               width="30"
               height="30"
               className="d-inline-block align-top"
@@ -27,4 +27,4 @@ function BrandExample() {
   );
 }
 
-export default BrandExample;
+export default logo;
